@@ -1,0 +1,273 @@
+#######################Part1###########################
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 14:45:04 on Nov 18,2021
+vlog part1.v 
+-- Compiling module part1
+
+Top level modules:
+	part1
+End time: 14:45:04 on Nov 18,2021, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "/cad2/ece241f/public/5/test/run.do" work.part1_tb 
+# Start time: 14:45:05 on Nov 18,2021
+# //  ModelSim - Intel FPGA Edition 2020.1 Feb 28 2020 Linux 4.19.0-18-amd64
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim - Intel FPGA Edition and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.part1_tb
+# Loading work.part1
+# do /cad2/ece241f/public/5/test/run.do
+# At cycle                    3, Clear_b = 0, Enable = 0, current out =   0
+# At cycle                    3, Your output =   0, expected output =   0, PASSED
+# At cycle                    3, Clear_b = 1, Enable = 0, current out =   0
+# At cycle                    6, Your output =   0, expected output =   0, PASSED
+# At cycle                    7, Clear_b = 1, Enable = 1, current out =   0
+# At cycle                   31, Your output =  24, expected output =  24, PASSED
+# At cycle                   38, Your output =  31, expected output =  31, PASSED
+# At cycle                   38, Clear_b = 1, Enable = 0, current out =  31
+# At cycle                   45, Your output =  31, expected output =  31, PASSED
+# At cycle                   45, Clear_b = 1, Enable = 1, current out =  31
+# At cycle                   46, Your output =  32, expected output =  32, PASSED
+# At cycle                   46, Clear_b = 1, Enable = 0, current out =  32
+# At cycle                   56, Your output =  32, expected output =  32, PASSED
+# At cycle                   56, Clear_b = 0, Enable = 1, current out =  32
+# At cycle                   57, Your output =   0, expected output =   0, PASSED
+# At cycle                   57, Clear_b = 1, Enable = 1, current out =   0
+# At cycle                   74, Your output =  17, expected output =  17, PASSED
+# ** Note: $finish    : /cad2/ece241f/public/5/test/part1_tb.sv(84)
+#    Time: 73500 ps  Iteration: 0  Instance: /part1_tb
+# End time: 14:45:05 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+######################SUMMARY of part1##########################
+Number of Errors by compiling the verilog code: 0
+Number of Errors by running the simulation: 0
+Number of PASSED: 9
+Number of FAILED: 0
+part1 is done!
+#######################Part2###########################
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 14:45:05 on Nov 18,2021
+vlog part2.v 
+-- Compiling module part2
+
+Top level modules:
+	part2
+End time: 14:45:05 on Nov 18,2021, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "/cad2/ece241f/public/5/test/run.do" work.part2_tb 
+# Start time: 14:45:06 on Nov 18,2021
+# //  ModelSim - Intel FPGA Edition 2020.1 Feb 28 2020 Linux 4.19.0-18-amd64
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim - Intel FPGA Edition and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.part2_tb
+# Loading work.part2
+# do /cad2/ece241f/public/5/test/run.do
+# At cycle                    1, Reset = 1, Speed = 0, current out =  0
+# At cycle                    4, Reset = 0, Speed = 0, current out =  0
+# At cycle                   90, your output =  6,  expected output =  6
+# PASSED
+# At cycle                   90, Reset = 0, Speed = 1, current out =  6
+# At cycle                  640, your output =  8,  expected output is from  7 to          9
+# PASSED
+# At cycle                 1740, your output = 10,  expected output = 10
+# PASSED
+# At cycle                 1740, Reset = 0, Speed = 2, current out = 10
+# Speed is changed after counter counts down to 0 and output is updated
+# At cycle                 3040, your output = 11,  expected output = 11
+# PASSED
+# At cycle                 5040, your output = 13,  expected output = 13
+# PASSED
+# ** Note: $finish    : /cad2/ece241f/public/5/test/part2_tb.sv(76)
+#    Time: 503950 ns  Iteration: 0  Instance: /part2_tb
+# End time: 14:45:06 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+######################SUMMARY of part2##########################
+Number of Errors by compiling the verilog code: 0
+Number of Errors by running the simulation: 0
+Number of PASSED: 5
+Number of FAILED: 0
+part2 is done!
+#######################Part3###########################
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 14:45:06 on Nov 18,2021
+vlog part3.v 
+-- Compiling module part3
+
+Top level modules:
+	part3
+End time: 14:45:06 on Nov 18,2021, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "/cad2/ece241f/public/5/test/run.do" work.part3_tb 
+# Start time: 14:45:07 on Nov 18,2021
+# //  ModelSim - Intel FPGA Edition 2020.1 Feb 28 2020 Linux 4.19.0-18-amd64
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim - Intel FPGA Edition and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.part3_tb
+# Loading work.part3
+# do /cad2/ece241f/public/5/test/run.do
+# At cycle                    1, Reset = 0, Enable = 0, Select = 0x
+# At cycle                    3, Reset = 1, Enable = 0, Select = 0x
+# At cycle                   23, Reset = 1, Enable = 1, Select = 0x
+# At cycle                   25, Reset = 1, Enable = 0, Select = 0x
+# At cycle                  285, your output = 1, expected output = 1
+# PASSED
+# At cycle                  535, your output = 0, expected output = 0
+# PASSED
+# At cycle                  785, your output = 1, expected output = 1
+# PASSED
+# At cycle                 1035, your output = 1, expected output = 1
+# PASSED
+# At cycle                 1285, your output = 1, expected output = 1
+# PASSED
+# At cycle                 1535, your output = 0, expected output = 0
+# PASSED
+# At cycle                 1785, your output = 0, expected output = 0
+# PASSED
+# At cycle                 2035, your output = 0, expected output = 0
+# PASSED
+# At cycle                 2285, your output = 0, expected output = 0
+# PASSED
+# At cycle                 2535, your output = 0, expected output = 0
+# PASSED
+# At cycle                 2785, your output = 0, expected output = 0
+# PASSED
+# At cycle                 3035, your output = 0, expected output = 0
+# PASSED
+# Finish one morse code for Select = 0
+# At cycle                 3035, Reset = 0, Enable = 0, Select = 10
+# At cycle                 3037, Reset = 1, Enable = 0, Select = 10
+# At cycle                 3057, Reset = 1, Enable = 1, Select = 10
+# At cycle                 3059, Reset = 1, Enable = 0, Select = 10
+# At cycle                 3319, your output = 1, expected output = 1
+# PASSED
+# At cycle                 3569, your output = 1, expected output = 1
+# PASSED
+# At cycle                 3819, your output = 1, expected output = 1
+# PASSED
+# At cycle                 4069, your output = 0, expected output = 0
+# PASSED
+# At cycle                 4319, your output = 1, expected output = 1
+# PASSED
+# At cycle                 4569, your output = 0, expected output = 0
+# PASSED
+# At cycle                 4819, your output = 1, expected output = 1
+# PASSED
+# At cycle                 5069, your output = 0, expected output = 0
+# PASSED
+# At cycle                 5319, your output = 1, expected output = 1
+# PASSED
+# At cycle                 5569, your output = 0, expected output = 0
+# PASSED
+# At cycle                 5819, your output = 0, expected output = 0
+# PASSED
+# At cycle                 6069, your output = 0, expected output = 0
+# PASSED
+# Finish one morse code for Select = 1
+# At cycle                 6069, Reset = 0, Enable = 0, Select = 20
+# At cycle                 6071, Reset = 1, Enable = 0, Select = 20
+# At cycle                 6091, Reset = 1, Enable = 1, Select = 20
+# At cycle                 6093, Reset = 1, Enable = 0, Select = 20
+# At cycle                 6353, your output = 1, expected output = 1
+# PASSED
+# At cycle                 6603, your output = 1, expected output = 1
+# PASSED
+# At cycle                 6853, your output = 1, expected output = 1
+# PASSED
+# At cycle                 7103, your output = 0, expected output = 0
+# PASSED
+# At cycle                 7353, your output = 1, expected output = 1
+# PASSED
+# At cycle                 7603, your output = 0, expected output = 0
+# PASSED
+# At cycle                 7853, your output = 1, expected output = 1
+# PASSED
+# At cycle                 8103, your output = 1, expected output = 1
+# PASSED
+# At cycle                 8353, your output = 1, expected output = 1
+# PASSED
+# At cycle                 8603, your output = 0, expected output = 0
+# PASSED
+# At cycle                 8853, your output = 1, expected output = 1
+# PASSED
+# At cycle                 9103, your output = 0, expected output = 0
+# PASSED
+# Finish one morse code for Select = 2
+# At cycle                 9353, your output = 1, expected output = 1
+# PASSED
+# At cycle                 9603, your output = 1, expected output = 1
+# PASSED
+# At cycle                 9853, your output = 1, expected output = 1
+# PASSED
+# At cycle                10103, your output = 0, expected output = 0
+# PASSED
+# At cycle                10353, your output = 1, expected output = 1
+# PASSED
+# At cycle                10603, your output = 0, expected output = 0
+# PASSED
+# At cycle                10853, your output = 1, expected output = 1
+# PASSED
+# At cycle                11103, your output = 1, expected output = 1
+# PASSED
+# At cycle                11353, your output = 1, expected output = 1
+# PASSED
+# At cycle                11603, your output = 0, expected output = 0
+# PASSED
+# At cycle                11853, your output = 1, expected output = 1
+# PASSED
+# At cycle                12103, your output = 0, expected output = 0
+# PASSED
+# Finish one morse code for Select = 2
+# ** Note: $finish    : /cad2/ece241f/public/5/test/part3_tb.sv(99)
+#    Time: 1210300 ns  Iteration: 0  Instance: /part3_tb
+# End time: 14:45:07 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+######################SUMMARY of part3##########################
+Number of Errors by compiling the verilog code: 0
+Number of Errors by running the simulation: 0
+Number of PASSED: 48
+Number of FAILED: 0
+part3 is done!

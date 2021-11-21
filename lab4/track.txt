@@ -1,0 +1,322 @@
+#######################Part2###########################
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 23:46:09 on Oct 27,2021
+vlog part2.v 
+-- Compiling module part2
+-- Compiling module ALU
+-- Compiling module FullAdder
+-- Compiling module FourBA
+-- Compiling module case0
+
+Top level modules:
+	part2
+End time: 23:46:09 on Oct 27,2021, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "/cad2/ece241f/public/4/test/run.do" work.part2_tb 
+# Start time: 23:46:11 on Oct 27,2021
+# //  ModelSim - Intel FPGA Edition 2020.1 Feb 28 2020 Linux 4.19.0-18-amd64
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim - Intel FPGA Edition and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.part2_tb
+# Loading work.part2
+# Loading work.ALU
+# Loading work.case0
+# Loading work.FourBA
+# Loading work.FullAdder
+# do /cad2/ece241f/public/4/test/run.do
+# At cycle                    3, reset circuit
+# At cycle                    4, starts test cases
+# TEST 1: checking case 0
+# At cycle                    4, Signal B = 0000, Signal A = 1001, select = 0
+# At cycle                    5, Check Result
+# Your output = 00001001, expected output = 00001001, PASSED
+# TEST 2: checking case 0
+# At cycle                    5, Signal B = 1001, Signal A = 1000, select = 0
+# At cycle                    6, Check Result
+# Your output = 00010001, expected output = 00010001, PASSED
+# TEST 3: checking case 1
+# At cycle                    6, Signal B = 0001, Signal A = 0011, select = 1
+# At cycle                    7, Check Result
+# Your output = 00000100, expected output = 00000100, PASSED
+# TEST 4: checking case 1
+# At cycle                    7, Signal B = 0100, Signal A = 0100, select = 1
+# At cycle                    8, Check Result
+# Your output = 00001000, expected output = 00001000, PASSED
+# TEST 5: checking case 2
+# At cycle                    8, Signal B = 1000, Signal A = 0100, select = 2
+# At cycle                    9, Check Result
+# Your output = 11111000, expected output = 11111000, PASSED
+# TEST 6: checking case 3
+# At cycle                    9, Signal B = 1000, Signal A = 1111, select = 3
+# At cycle                   10, Check Result
+# Your output = 00000001, expected output = 00000001, PASSED
+# TEST 7: checking case 1
+# At cycle                   10, Signal B = 0001, Signal A = 1111, select = 1
+# At cycle                   11, Check Result
+# Your output = 00010000, expected output = 00010000, PASSED
+# TEST 8: checking case 3
+# At cycle                   11, Signal B = 0000, Signal A = 0000, select = 3
+# At cycle                   12, Check Result
+# Your output = 00000000, expected output = 00000000, PASSED
+# ** Note: $finish    : /cad2/ece241f/public/4/test/part2_tb.sv(108)
+#    Time: 11500 ps  Iteration: 0  Instance: /part2_tb
+# End time: 23:46:11 on Oct 27,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+######################SUMMARY of part2##########################
+Number of Errors by compiling the verilog code: 0
+Number of Errors by running the simulation: 0
+Number of PASSED: 8
+Number of FAILED: 0
+part2 is done!
+#######################Part3###########################
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 23:46:12 on Oct 27,2021
+vlog part3.v 
+-- Compiling module part3
+
+Top level modules:
+	part3
+End time: 23:46:12 on Oct 27,2021, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "/cad2/ece241f/public/4/test/run.do" work.part3_tb 
+# Start time: 23:46:14 on Oct 27,2021
+# //  ModelSim - Intel FPGA Edition 2020.1 Feb 28 2020 Linux 4.19.0-18-amd64
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim - Intel FPGA Edition and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.part3_tb
+# Loading work.part3
+# do /cad2/ece241f/public/4/test/run.do
+# At cycle                    1, reset circuit
+# At cycle                    4, starts test cases
+# At cycle                    4, previous output = 00000000, input = 10111000, select = 110
+# At cycle                    5, check result
+# your output = 00000000, golden_output = 00000000 PASSED
+# At cycle                    5, previous output = 00000000, input = 01100110, select = 110
+# At cycle                    6, check result
+# your output = 00000000, golden_output = 00000000 PASSED
+# At cycle                    6, previous output = 00000000, input = 11000110, select = 110
+# At cycle                    7, check result
+# your output = 00000000, golden_output = 00000000 PASSED
+# At cycle                    7, previous output = 00000000, input = 01110010, select = 110
+# At cycle                    8, check result
+# your output = 00000000, golden_output = 00000000 PASSED
+# At cycle                    8, previous output = 00000000, input = 01100111, select = 010
+# At cycle                    9, check result
+# your output = 01100111, golden_output = 01100111 PASSED
+# At cycle                    9, previous output = 01100111, input = 01101010, select = 100
+# At cycle                   10, check result
+# your output = 11001110, golden_output = 11001110 PASSED
+# At cycle                   10, previous output = 11001110, input = 01101111, select = 110
+# At cycle                   11, check result
+# your output = 01100111, golden_output = 01100111 PASSED
+# At cycle                   11, previous output = 01100111, input = 00110101, select = 100
+# At cycle                   12, check result
+# your output = 11001110, golden_output = 11001110 PASSED
+# At cycle                   12, previous output = 11001110, input = 10101110, select = 101
+# At cycle                   13, check result
+# your output = 10011101, golden_output = 10011101 PASSED
+# At cycle                   13, previous output = 10011101, input = 11011011, select = 101
+# At cycle                   14, check result
+# your output = 00111011, golden_output = 00111011 PASSED
+# At cycle                   14, previous output = 00111011, input = 11100011, select = 000
+# At cycle                   15, check result
+# your output = 11100011, golden_output = 11100011 PASSED
+# At cycle                   15, previous output = 11100011, input = 11100101, select = 101
+# At cycle                   16, check result
+# your output = 11000111, golden_output = 11000111 PASSED
+# At cycle                   16, previous output = 11000111, input = 00100101, select = 001
+# At cycle                   17, check result
+# your output = 00100101, golden_output = 00100101 PASSED
+# At cycle                   17, previous output = 00100101, input = 01011101, select = 010
+# At cycle                   18, check result
+# your output = 01011101, golden_output = 01011101 PASSED
+# At cycle                   18, previous output = 01011101, input = 01011000, select = 011
+# At cycle                   19, check result
+# your output = 01011000, golden_output = 01011000 PASSED
+# At cycle                   19, previous output = 01011000, input = 01010110, select = 001
+# At cycle                   20, check result
+# your output = 01010110, golden_output = 01010110 PASSED
+# At cycle                   20, previous output = 01010110, input = 10111001, select = 000
+# At cycle                   21, check result
+# your output = 10111001, golden_output = 10111001 PASSED
+# At cycle                   21, previous output = 10111001, input = 10000000, select = 110
+# At cycle                   22, check result
+# your output = 11011100, golden_output = 11011100 PASSED
+# At cycle                   22, previous output = 11011100, input = 11010100, select = 110
+# At cycle                   23, check result
+# your output = 01101110, golden_output = 01101110 PASSED
+# At cycle                   23, previous output = 01101110, input = 11000000, select = 111
+# At cycle                   24, check result
+# your output = 00110111, golden_output = 00110111 PASSED
+# At cycle                   24, previous output = 00110111, input = 00100101, select = 111
+# At cycle                   25, check result
+# your output = 00011011, golden_output = 00011011 PASSED
+# At cycle                   25, previous output = 00011011, input = 01011000, select = 001
+# At cycle                   26, check result
+# your output = 01011000, golden_output = 01011000 PASSED
+# At cycle                   26, previous output = 01011000, input = 00110010, select = 011
+# At cycle                   27, check result
+# your output = 00110010, golden_output = 00110010 PASSED
+# At cycle                   27, previous output = 00110010, input = 01010100, select = 011
+# At cycle                   28, check result
+# your output = 01010100, golden_output = 01010100 PASSED
+# At cycle                   28, previous output = 01010100, input = 01011010, select = 110
+# At cycle                   29, check result
+# your output = 00101010, golden_output = 00101010 PASSED
+# At cycle                   29, previous output = 00101010, input = 11110110, select = 101
+# At cycle                   30, check result
+# your output = 01010100, golden_output = 01010100 PASSED
+# At cycle                   30, previous output = 01010100, input = 11101010, select = 111
+# At cycle                   31, check result
+# your output = 00101010, golden_output = 00101010 PASSED
+# At cycle                   31, previous output = 00101010, input = 11101111, select = 100
+# At cycle                   32, check result
+# your output = 01010100, golden_output = 01010100 PASSED
+# At cycle                   32, previous output = 01010100, input = 11001001, select = 011
+# At cycle                   33, check result
+# your output = 11001001, golden_output = 11001001 PASSED
+# At cycle                   33, previous output = 11001001, input = 01000111, select = 111
+# At cycle                   34, check result
+# your output = 11100100, golden_output = 11100100 PASSED
+# At cycle                   34, previous output = 11100100, input = 11110010, select = 001
+# At cycle                   35, check result
+# your output = 11110010, golden_output = 11110010 PASSED
+# At cycle                   35, previous output = 11110010, input = 10000101, select = 000
+# At cycle                   36, check result
+# your output = 10000101, golden_output = 10000101 PASSED
+# At cycle                   36, previous output = 10000101, input = 01110110, select = 101
+# At cycle                   37, check result
+# your output = 00001011, golden_output = 00001011 PASSED
+# At cycle                   37, previous output = 00001011, input = 11010010, select = 110
+# At cycle                   38, check result
+# your output = 10000101, golden_output = 10000101 PASSED
+# At cycle                   38, previous output = 10000101, input = 11011011, select = 000
+# At cycle                   39, check result
+# your output = 11011011, golden_output = 11011011 PASSED
+# At cycle                   39, previous output = 11011011, input = 10110101, select = 001
+# At cycle                   40, check result
+# your output = 10110101, golden_output = 10110101 PASSED
+# At cycle                   40, previous output = 10110101, input = 01110011, select = 000
+# At cycle                   41, check result
+# your output = 01110011, golden_output = 01110011 PASSED
+# At cycle                   41, previous output = 01110011, input = 01010111, select = 101
+# At cycle                   42, check result
+# your output = 11100110, golden_output = 11100110 PASSED
+# At cycle                   42, previous output = 11100110, input = 11010100, select = 101
+# At cycle                   43, check result
+# your output = 11001101, golden_output = 11001101 PASSED
+# At cycle                   43, previous output = 11001101, input = 10011010, select = 100
+# At cycle                   44, check result
+# your output = 10011011, golden_output = 10011011 PASSED
+# At cycle                   44, previous output = 10011011, input = 10110111, select = 001
+# At cycle                   45, check result
+# your output = 10110111, golden_output = 10110111 PASSED
+# At cycle                   45, previous output = 10110111, input = 00001010, select = 101
+# At cycle                   46, check result
+# your output = 01101111, golden_output = 01101111 PASSED
+# At cycle                   46, previous output = 01101111, input = 11111110, select = 100
+# At cycle                   47, check result
+# your output = 11011110, golden_output = 11011110 PASSED
+# At cycle                   47, previous output = 11011110, input = 11111110, select = 011
+# At cycle                   48, check result
+# your output = 11111110, golden_output = 11111110 PASSED
+# At cycle                   48, previous output = 11111110, input = 10001000, select = 100
+# At cycle                   49, check result
+# your output = 11111101, golden_output = 11111101 PASSED
+# At cycle                   49, previous output = 11111101, input = 10011011, select = 011
+# At cycle                   50, check result
+# your output = 10011011, golden_output = 10011011 PASSED
+# At cycle                   50, previous output = 10011011, input = 00101111, select = 111
+# At cycle                   51, check result
+# your output = 11001101, golden_output = 11001101 PASSED
+# At cycle                   51, previous output = 11001101, input = 00001011, select = 111
+# At cycle                   52, check result
+# your output = 11100110, golden_output = 11100110 PASSED
+# At cycle                   52, previous output = 11100110, input = 00000000, select = 001
+# At cycle                   53, check result
+# your output = 00000000, golden_output = 00000000 PASSED
+# At cycle                   53, previous output = 00000000, input = 01101010, select = 001
+# At cycle                   54, check result
+# your output = 01101010, golden_output = 01101010 PASSED
+# At cycle                   54, previous output = 01101010, input = 00000100, select = 000
+# At cycle                   55, check result
+# your output = 00000100, golden_output = 00000100 PASSED
+# At cycle                   55, previous output = 00000100, input = 10101111, select = 111
+# At cycle                   56, check result
+# your output = 00000010, golden_output = 00000010 PASSED
+# At cycle                   56, previous output = 00000010, input = 01000101, select = 101
+# At cycle                   57, check result
+# your output = 00000100, golden_output = 00000100 PASSED
+# At cycle                   57, previous output = 00000100, input = 01101100, select = 000
+# At cycle                   58, check result
+# your output = 01101100, golden_output = 01101100 PASSED
+# At cycle                   58, previous output = 01101100, input = 10101001, select = 100
+# At cycle                   59, check result
+# your output = 11011000, golden_output = 11011000 PASSED
+# At cycle                   59, previous output = 11011000, input = 11100101, select = 111
+# At cycle                   60, check result
+# your output = 11101100, golden_output = 11101100 PASSED
+# At cycle                   60, previous output = 11101100, input = 00111011, select = 110
+# At cycle                   61, check result
+# your output = 01110110, golden_output = 01110110 PASSED
+# At cycle                   61, previous output = 01110110, input = 10100001, select = 101
+# At cycle                   62, check result
+# your output = 11101100, golden_output = 11101100 PASSED
+# At cycle                   62, previous output = 11101100, input = 10001110, select = 000
+# At cycle                   63, check result
+# your output = 10001110, golden_output = 10001110 PASSED
+# At cycle                   63, previous output = 10001110, input = 00010101, select = 000
+# At cycle                   64, check result
+# your output = 00010101, golden_output = 00010101 PASSED
+# At cycle                   64, previous output = 00010101, input = 11000100, select = 011
+# At cycle                   65, check result
+# your output = 11000100, golden_output = 11000100 PASSED
+# At cycle                   65, previous output = 11000100, input = 10101000, select = 101
+# At cycle                   66, check result
+# your output = 10001001, golden_output = 10001001 PASSED
+# At cycle                   66, previous output = 10001001, input = 01101100, select = 101
+# At cycle                   67, check result
+# your output = 00010011, golden_output = 00010011 PASSED
+# At cycle                   67, previous output = 00010011, input = 10101011, select = 010
+# At cycle                   68, check result
+# your output = 10101011, golden_output = 10101011 PASSED
+# ** Note: $finish    : /cad2/ece241f/public/4/test/part3_tb.sv(65)
+#    Time: 67500 ps  Iteration: 0  Instance: /part3_tb
+# End time: 23:46:14 on Oct 27,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+######################SUMMARY of part3##########################
+Number of Errors by compiling the verilog code: 0
+Number of Errors by running the simulation: 0
+Number of PASSED: 64
+Number of FAILED: 0
+part3 is done!
